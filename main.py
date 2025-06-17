@@ -1,4 +1,4 @@
-import colorama
+import colorama 
 import threading
 import requests
 import webbrowser
@@ -57,7 +57,7 @@ if operation == "1":
         print(str(i + 1) + " thread started!")
 
 elif operation == "2":
-    url = 'https://discord.gg/Kq73txCn'
+    url = ''
     webbrowser.open(url)
 
 input("Press enter to exit")
