@@ -57,7 +57,7 @@ if operation == "1":
         print(str(i + 1) + " thread started!")
 
 elif operation == "2":
-    url = ''
+    url = 'https://discord.gg/VzkbKbdZ'
     webbrowser.open(url)
 
 input("Press enter to exit")
