@@ -14,7 +14,7 @@ print('''
 ██████╔╝██║░╚███║██████╔╝██║░░░░░██████╔╝██████╔╝╚█████╔╝██████╔╝
 ╚═════╝░╚═╝░░╚══╝╚═════╝░╚═╝░░░░░╚═════╝░╚═════╝░░╚════╝░╚═════╝░
       
-      
+Coded by dnspy!
 ''')
 
 message1 = '''
@@ -31,9 +31,9 @@ if operation == "1":
         while True:
             try:
                 res = requests.get(target)
-                print(colorama.Fore.YELLOW + "Request sent!" + colorama.Fore.WHITE)
+                print(colorama.Fore.GREEN + "Request sent!" + colorama.Fore.WHITE)
             except requests.exceptions.ConnectionError:
-                print(colorama.Fore.RED + "[+] " + colorama.Fore.LIGHTGREEN_EX + "Connection error!")
+                print(colorama.Fore.WHITE + "[+] " + colorama.Fore.RED + "Connection error!")
 
     url = input("URL: ")
 
